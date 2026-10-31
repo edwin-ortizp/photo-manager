@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Fotos</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body data-seccion="fotos">
+  <nav id="navegacion" aria-label="Navegación principal">
+    <a class="marca" href="./" aria-label="Photo Manager, inicio">◈ <span>Photo Manager</span></a>
+    <button data-seccion="fotos" aria-current="page"><span aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="8" cy="8" r="1.5"/><path d="m3 17 6-6 4 4 3-3 5 5"/></svg></span>Fotos</button>
+    <button data-seccion="explorar"><span aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg></span>Explorar</button>
+    <button data-seccion="gestionar"><span aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6h18M3 12h18M3 18h18"/><circle cx="8" cy="6" r="2" fill="var(--panel)"/><circle cx="16" cy="12" r="2" fill="var(--panel)"/><circle cx="10" cy="18" r="2" fill="var(--panel)"/></svg></span>Gestionar</button>
+  </nav>
+  <aside id="lateral">
+    <h1 id="seccion-titulo">Fotos</h1><p class="solo-gestion nota-pc">Biblioteca del PC · los cambios se aplican en el PC.</p>
+    <section class="herramientas solo-gestion"><button id="actualizar-inventario">Actualizar inventario</button><button id="abrir-auditoria">Auditoría y trabajos</button></section>
+    <details id="conexion" class="solo-gestion"><summary>Abrir en el celular</summary><div id="conexion-direcciones">Consultando dirección…</div></details>
+    <section class="solo-gestion"><h2>Bandejas</h2><ul id="bandejas"></ul></section>
+    <details class="solo-explorar"><summary>Carpetas</summary><input id="buscar-carpetas" type="search" placeholder="Buscar carpeta…" aria-label="Buscar carpeta"><ul id="carpetas"></ul></details>
+    <section class="seccion-etiquetas"><div class="cabecera-etiquetas"><h2>Etiquetas</h2><button id="administrar-etiquetas">Administrar etiquetas</button></div>
+      <input id="filtro-etiquetas" aria-label="Filtrar etiquetas" placeholder="Filtrar etiquetas…">
+      <div id="etiquetas"></div>
+      <details id="internas"><summary>Etiquetas internas</summary><div id="etiquetas-internas"></div></details>
+    </section>
+  </aside>
+
+  <main>
+    <header id="barra">
+      <span id="titulo"></span>
+      <input id="buscar" aria-label="Buscar fotos" type="search" placeholder="Buscar en nombre, etiquetas o descripción…">
+      <label class="tamano">Tamaño <input id="tamano" type="range" min="90" max="320" value="160"></label>
+    </header>
+    <div id="seleccion-barra" hidden><button id="seleccion-cancelar" aria-label="Cancelar selección">×</button><strong id="seleccion-cantidad"></strong><button id="seleccion-acciones">Datos y acciones</button></div>
+    <div id="estado-galeria" role="status" aria-live="polite" hidden><span></span><button id="reintentar-galeria" hidden>Reintentar</button></div>
+    <div id="rejilla" aria-label="Galería de fotos"></div>
+    <div id="centinela"></div>
+  </main>
+
+  <aside id="detalle" aria-label="Datos y acciones de la selección" hidden>
+    <div class="cabecera">
+      <button id="detalle-ampliar" aria-label="Ampliar o reducir detalle">⌃</button><strong id="sel-total"></strong>
+      <button id="sel-limpiar" title="Esc" aria-label="Cerrar detalle">×</button>
+    </div>
+    <div id="vista"></div>
+    <section>
+      <h2>Tipo</h2><select id="tipo-principal" aria-label="Tipo principal"></select>
+      <p id="tipo-pendiente"></p>
+      <div id="grupos-etiquetas"></div>
+      <h2>Fecha</h2><div id="fecha-resumen"></div><button id="editar-datos">Editar datos</button>
+      <details><summary>Otras etiquetas</summary><div id="sel-etiquetas"></div>
+      <input id="nueva-etiqueta" list="lista-etiquetas" placeholder="Agregar etiqueta + Enter" aria-label="Agregar otra etiqueta">
+      <datalist id="lista-etiquetas"></datalist>
+      </details>
+    </section>
+    <section id="datos"></section>
+    <p class="nota-pc">Los cambios se aplican a los archivos del PC.</p>
+    <section class="acciones-archivos"><button id="auditar-seleccion">Auditar selección</button><button id="convertir-seleccion">Convertir / corregir AVIF</button><button id="organizar-seleccion">Organizar selección</button><button id="mover-fotos">Mover de carpeta</button><button id="papelera-fotos" class="peligro">Enviar a la papelera</button></section>
+  </aside>
+
+  <div id="visor" role="dialog" aria-modal="true" aria-label="Visor de fotos" tabindex="-1" hidden>
+    <header class="visor-controles"><button class="cerrar" aria-label="Cerrar visor">←</button><span id="visor-posicion"></span><button id="visor-detalle">Información y acciones</button></header>
+    <div id="visor-superficie"><img id="visor-img" alt="" draggable="false"></div>
+    <button class="nav ant visor-controles" aria-label="Foto anterior">‹</button>
+    <button class="nav sig visor-controles" aria-label="Foto siguiente">›</button>
+    <div id="visor-carga" role="status"></div>
+    <button id="visor-reintentar" hidden>Reintentar imagen</button>
+    <div id="visor-info" class="visor-controles"></div>
+  </div>
+
+  <dialog id="operaciones" aria-labelledby="operaciones-titulo" aria-describedby="operaciones-aviso">
+    <header><h2 id="operaciones-titulo">Operación sobre fotos</h2><button id="operaciones-cerrar" aria-label="Cerrar operación">×</button></header>
+    <div class="admin-cuerpo">
+      <p id="operaciones-aviso">Se modificarán archivos reales en el PC del gestor. Syncthing puede propagar estos cambios a otros dispositivos.</p>
+      <p id="operaciones-alcance"></p>
+      <label id="operaciones-carpeta">Carpeta de destino existente<select id="operaciones-destino" aria-label="Carpeta de destino"></select></label>
+      <p id="operaciones-papelera" hidden>Se enviarán a la papelera de Windows del PC del gestor. Para recuperarlas, abre esa papelera en el PC. No hay borrado definitivo desde esta aplicación.</p>
+      <button id="operaciones-revisar">Revisar archivos afectados</button>
+      <section id="operaciones-preview" hidden>
+        <p id="operaciones-impacto"></p>
+        <div id="operaciones-lista"></div>
+        <label>Escribe exactamente: <strong id="operaciones-frase"></strong><input id="operaciones-texto" autocomplete="off" spellcheck="false" aria-label="Frase de confirmación"></label>
+        <small>La revisión vence en diez minutos.</small>
+      </section>
+      <div id="operaciones-resultado" role="status" aria-live="polite"></div>
+    </div>
+    <footer><button id="operaciones-cancelar">Cancelar</button><button id="operaciones-confirmar" class="peligro" disabled>Confirmar operación</button></footer>
+  </dialog>
+  <dialog id="administrador" aria-labelledby="admin-titulo">
+    <header><h2 id="admin-titulo">Administrar etiquetas</h2><button id="admin-cerrar" aria-label="Cerrar administrador">×</button></header>
+    <div class="admin-cuerpo">
+      <p>Organiza por grupos usando <strong>grupo | etiqueta</strong>. Selecciona un grupo del sidebar para ver todas sus fotos.</p>
+      <form id="crear-etiqueta"><h3>Crear etiqueta o grupo</h3>
+        <label>Nombre o ruta <input id="crear-nombre" required maxlength="200" placeholder="Ej.: personas | Camila Mateus"></label>
+        <button>Crear</button><small>Disponible para asignar aunque todavía no tenga fotos.</small>
+      </form>
+      <h3>Etiquetas existentes</h3><input id="admin-buscar" type="search" aria-label="Buscar etiquetas para administrar" placeholder="Buscar etiqueta…">
+      <div id="admin-lista"></div>
+      <form id="renombrar-etiqueta" hidden><h3>Renombrar o cambiar de grupo</h3>
+        <label>Etiqueta actual <input id="renombrar-origen" readonly></label>
+        <label>Nuevo nombre o ruta <input id="renombrar-destino" required maxlength="200"></label>
+        <small>También cambia sus subetiquetas y conserva las asociaciones con las fotos. No fusiona etiquetas existentes.</small>
+        <button>Revisar cambio</button>
+      </form>
+      <div id="admin-preview" hidden><p id="admin-impacto"></p><button id="admin-confirmar">Confirmar renombrado</button><button id="admin-cancelar">Cancelar</button></div>
+      <p id="admin-mensaje" role="status" aria-live="polite"></p>
+    </div>
+    <footer><button id="admin-listo">Listo</button></footer>
+  </dialog>
+  <dialog id="editor-datos" aria-labelledby="editor-titulo">
+    <header><h2 id="editor-titulo">Editar datos</h2><button id="editor-cerrar" aria-label="Cerrar edición">×</button></header>
+    <div class="admin-cuerpo">
+      <p id="editor-seleccion"></p>
+      <form id="form-datos">
+        <label class="opcion-campo"><input id="modificar-fecha" type="checkbox"> Modificar fecha</label>
+        <fieldset id="campos-fecha" disabled><label>Precisión <select id="fecha-precision"><option value="ano">Solo año</option><option value="mes">Mes y año</option><option value="dia" selected>Día, mes y año</option><option value="hora">Fecha con hora</option></select></label>
+          <label>Fecha <input id="fecha-valor" type="date" required></label>
+        </fieldset>
+        <label class="opcion-campo"><input id="modificar-lugar" type="checkbox"> Agregar lugar</label>
+        <fieldset id="campos-lugar" disabled><label>Nombre del lugar <input id="lugar-valor" list="lista-lugares" maxlength="194" required></label><small>Conserva los demás lugares y las coordenadas GPS.</small></fieldset>
+        <button>Revisar cambios</button>
+      </form>
+      <div id="datos-preview" hidden><p id="datos-impacto"></p><button id="datos-confirmar">Confirmar y guardar</button></div>
+      <div id="datos-resultado" role="status" aria-live="polite"></div>
+    </div>
+    <footer><button id="editor-listo">Cerrar</button></footer>
+  </dialog>
+  <div id="aviso" hidden></div>
+  <dialog id="flujo" aria-labelledby="flujo-titulo">
+    <header><h2 id="flujo-titulo">Auditoría y trabajos</h2><button id="flujo-cerrar" aria-label="Cerrar">×</button></header>
+    <div class="admin-cuerpo">
+      <p id="flujo-alcance"></p>
+      <section id="flujo-conversion" hidden>
+        <p>AVIF: máximo 3840 px, calidad 75, 8 bits y 4:2:0. Los originales se respaldarán y verificarán antes de retirarlos de la biblioteca. Syncthing puede propagar los cambios.</p>
+        <label>Carpeta de originales en el PC del gestor<input id="flujo-respaldo" placeholder="C:\Fotos\originales" autocomplete="off"></label>
+        <button id="flujo-elegir" hidden>Elegir carpeta en este PC</button>
+      </section>
+      <p id="flujo-organizar" hidden>Revisa las carpetas sugeridas. Puedes cambiarlas; las que falten se crearán. Se conservan los nombres y no se sobrescriben archivos. Syncthing puede propagar los movimientos.</p>
+      <div id="flujo-destinos"></div>
+      <button id="flujo-revisar" hidden>Revisar archivos afectados</button>
+      <section id="flujo-preview" hidden>
+        <div id="flujo-lista"></div>
+        <label>Escribe exactamente: <strong id="flujo-frase"></strong><input id="flujo-texto" autocomplete="off" spellcheck="false"></label>
+        <small>La revisión vence en diez minutos. Cambiar opciones la invalida.</small>
+        <button id="flujo-confirmar" disabled>Confirmar e iniciar</button>
+      </section>
+      <p id="flujo-mensaje" role="status" aria-live="polite"></p>
+      <section id="flujo-auditoria">
+        <button id="auditar-biblioteca">Auditar biblioteca</button>
+        <label>Filtrar resultados<select id="auditoria-filtro"><option value="todos">Todos</option><option value="errores">Errores técnicos</option><option value="avisos">Advertencias técnicas</option><option value="desconocidos">Desconocidos / sin auditar</option><option value="organizacion">Pendientes de organización</option><option value="conforme">AVIF conformes</option></select></label>
+        <div id="auditoria-resultados"></div>
+      </section>
+      <h3>Trabajos recientes</h3><div id="flujo-trabajos"></div>
+    </div>
+    <footer><button id="flujo-listo">Cerrar</button></footer>
+  </dialog>
+  <script src="app.js"></script>
+  <script src="flujo.js"></script>
+  <script src="interfaz.js"></script>
+</body>
+</html>

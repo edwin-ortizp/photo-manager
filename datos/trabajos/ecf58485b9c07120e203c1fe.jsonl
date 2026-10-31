@@ -1,0 +1,2 @@
+{"fecha": "2026-10-31T18:56:27.968559+00:00", "evento": "inicio", "operacion": "auditar", "total": 1}
+{"fecha": "2026-10-31T18:56:27.976028+00:00", "evento": "completada", "ruta": "entrada/IMG_20261024_220509186.jpg", "tecnica": {"formato": "JPEG", "ancho": 2448, "alto": 3264, "bits": 8, "chroma": null, "cuadros": 1, "errores": [], "avisos": ["sin-avif"], "desconocidos": [], "conforme": false}, "organizacion": ["sin-tipo", "sin-clasificar"]}

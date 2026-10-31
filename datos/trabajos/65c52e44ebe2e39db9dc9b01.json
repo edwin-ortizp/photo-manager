@@ -1,0 +1,212 @@
+{
+  "id": "65c52e44ebe2e39db9dc9b01",
+  "operacion": "convertir",
+  "estado": "error",
+  "total": 75,
+  "procesadas": 23,
+  "completadas": [
+    {
+      "id": 4074,
+      "ruta": "entrada/IMG-20260426-WA0006.jpg",
+      "destino": "entrada/IMG-20260426-WA0006.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG-20260426-WA0006.jpg"
+    },
+    {
+      "id": 4075,
+      "ruta": "entrada/IMG-20260426-WA0011.jpg",
+      "destino": "entrada/IMG-20260426-WA0011.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG-20260426-WA0011.jpg"
+    },
+    {
+      "id": 4076,
+      "ruta": "entrada/IMG-20260521-WA0012.jpg",
+      "destino": "entrada/IMG-20260521-WA0012.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG-20260521-WA0012.jpg"
+    },
+    {
+      "id": 4077,
+      "ruta": "entrada/IMG-20260521-WA0017.jpg",
+      "destino": "entrada/IMG-20260521-WA0017.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG-20260521-WA0017.jpg"
+    },
+    {
+      "id": 4078,
+      "ruta": "entrada/IMG-20260523-WA0012.jpg",
+      "destino": "entrada/IMG-20260523-WA0012.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG-20260523-WA0012.jpg"
+    },
+    {
+      "id": 4079,
+      "ruta": "entrada/IMG-20260723-WA0032.jpg",
+      "destino": "entrada/IMG-20260723-WA0032.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG-20260723-WA0032.jpg"
+    },
+    {
+      "id": 4080,
+      "ruta": "entrada/IMG-20260723-WA0034.jpg",
+      "destino": "entrada/IMG-20260723-WA0034.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG-20260723-WA0034.jpg"
+    },
+    {
+      "id": 4081,
+      "ruta": "entrada/IMG-20260727-WA0009.jpg",
+      "destino": "entrada/IMG-20260727-WA0009.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG-20260727-WA0009.jpg"
+    },
+    {
+      "id": 4082,
+      "ruta": "entrada/IMG-20260803-WA0003.jpg",
+      "destino": "entrada/IMG-20260803-WA0003.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG-20260803-WA0003.jpg"
+    },
+    {
+      "id": 4083,
+      "ruta": "entrada/IMG-20260803-WA0005.jpg",
+      "destino": "entrada/IMG-20260803-WA0005.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG-20260803-WA0005.jpg"
+    },
+    {
+      "id": 4084,
+      "ruta": "entrada/IMG-20260807-WA0018.jpg",
+      "destino": "entrada/IMG-20260807-WA0018.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG-20260807-WA0018.jpg"
+    },
+    {
+      "id": 4085,
+      "ruta": "entrada/IMG-20260807-WA0019.jpg",
+      "destino": "entrada/IMG-20260807-WA0019.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG-20260807-WA0019.jpg"
+    },
+    {
+      "id": 4086,
+      "ruta": "entrada/IMG-20261006-WA0027.jpg",
+      "destino": "entrada/IMG-20261006-WA0027.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG-20261006-WA0027.jpg"
+    },
+    {
+      "id": 4087,
+      "ruta": "entrada/IMG-20261017-WA0006.jpg",
+      "destino": "entrada/IMG-20261017-WA0006.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG-20261017-WA0006.jpg"
+    },
+    {
+      "id": 4088,
+      "ruta": "entrada/IMG-20261019-WA0003.jpg",
+      "destino": "entrada/IMG-20261019-WA0003.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG-20261019-WA0003.jpg"
+    },
+    {
+      "id": 4089,
+      "ruta": "entrada/IMG-20261021-WA0002.jpg",
+      "destino": "entrada/IMG-20261021-WA0002.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG-20261021-WA0002.jpg"
+    },
+    {
+      "id": 4090,
+      "ruta": "entrada/IMG-20261023-WA0008.jpg",
+      "destino": "entrada/IMG-20261023-WA0008.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG-20261023-WA0008.jpg"
+    },
+    {
+      "id": 4091,
+      "ruta": "entrada/IMG-20261023-WA0011.jpg",
+      "destino": "entrada/IMG-20261023-WA0011.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG-20261023-WA0011.jpg"
+    },
+    {
+      "id": 4092,
+      "ruta": "entrada/IMG-20261027-WA0002.jpg",
+      "destino": "entrada/IMG-20261027-WA0002.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG-20261027-WA0002.jpg"
+    },
+    {
+      "id": 4093,
+      "ruta": "entrada/IMG-20261028-WA0001.jpg",
+      "destino": "entrada/IMG-20261028-WA0001.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG-20261028-WA0001.jpg"
+    },
+    {
+      "id": 4094,
+      "ruta": "entrada/IMG-20261029-WA0003.jpg",
+      "destino": "entrada/IMG-20261029-WA0003.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG-20261029-WA0003.jpg"
+    },
+    {
+      "id": 4095,
+      "ruta": "entrada/IMG-20261030-WA0018.jpg",
+      "destino": "entrada/IMG-20261030-WA0018.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG-20261030-WA0018.jpg"
+    },
+    {
+      "id": 4096,
+      "ruta": "entrada/IMG-20261031-WA0002.jpg",
+      "destino": "entrada/IMG-20261031-WA0002.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG-20261031-WA0002.jpg"
+    }
+  ],
+  "fallidas": [
+    {
+      "ruta": "entrada/IMG_20260919_202151429_HDR.jpg",
+      "error": "Error: [minor] Maker notes could not be parsed - C:/Users/edwin/Sync/fotos/entrada/.pm-04ced881994c6953a4d9f6f9.avif\n",
+      "destino": "C:\\Users\\edwin\\Sync\\fotos\\entrada\\IMG_20260919_202151429_HDR.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260919_202151429_HDR.jpg",
+      "archivo_modificado": false
+    }
+  ],
+  "omitidas": [],
+  "pendientes": [
+    "entrada/IMG_20260919_202151429_HDR.jpg",
+    "entrada/IMG_20260920_144107036_HDR.jpg",
+    "entrada/IMG_20260920_161014042_HDR.jpg",
+    "entrada/IMG_20260920_165659168_HDR.jpg",
+    "entrada/IMG_20260920_165738713_HDR.jpg",
+    "entrada/IMG_20260920_165755849_HDR.jpg",
+    "entrada/IMG_20260922_082340255.jpg",
+    "entrada/IMG_20260923_100215983.jpg",
+    "entrada/IMG_20260925_221143933.jpg",
+    "entrada/IMG_20260926_103856104_HDR.jpg",
+    "entrada/IMG_20260926_103901642_HDR.jpg",
+    "entrada/IMG_20260926_103917449.jpg",
+    "entrada/IMG_20260926_104121459_HDR.jpg",
+    "entrada/IMG_20260926_104125393_HDR.jpg",
+    "entrada/IMG_20260926_104132156_HDR.jpg",
+    "entrada/IMG_20260926_104133398_HDR.jpg",
+    "entrada/IMG_20260926_104134412_HDR.jpg",
+    "entrada/IMG_20260926_104143518_HDR.jpg",
+    "entrada/IMG_20260926_104145951_HDR.jpg",
+    "entrada/IMG_20260926_104149418_HDR.jpg",
+    "entrada/IMG_20260926_104151559_HDR.jpg",
+    "entrada/IMG_20260926_104231697.jpg",
+    "entrada/IMG_20260926_104232667.jpg",
+    "entrada/IMG_20260926_104233316.jpg",
+    "entrada/IMG_20260926_104235555_HDR.jpg",
+    "entrada/IMG_20260926_104236270.jpg",
+    "entrada/IMG_20260926_104236837.jpg",
+    "entrada/IMG_20260926_104237067.jpg",
+    "entrada/IMG_20260926_104237317.jpg",
+    "entrada/IMG_20260926_104241258.jpg",
+    "entrada/IMG_20260926_104241649.jpg",
+    "entrada/IMG_20260926_104242075.jpg",
+    "entrada/IMG_20260926_104242605.jpg",
+    "entrada/IMG_20260926_104246260_HDR.jpg",
+    "entrada/IMG_20260926_104248025.jpg",
+    "entrada/IMG_20260926_104342794_HDR.jpg",
+    "entrada/IMG_20260926_104407672_HDR.jpg",
+    "entrada/IMG_20260926_104424055_HDR.jpg",
+    "entrada/IMG_20260926_104459506_HDR.jpg",
+    "entrada/IMG_20260926_173408432_HDR.jpg",
+    "entrada/IMG_20260926_173418472_HDR.jpg",
+    "entrada/IMG_20260926_223106885.jpg",
+    "entrada/IMG_20260927_180202383.jpg",
+    "entrada/IMG_20261011_191848765_HDR.jpg",
+    "entrada/IMG_20261018_174656859_HDR.jpg",
+    "entrada/IMG_20261018_174700137_HDR.jpg",
+    "entrada/IMG_20261018_174705050_HDR.jpg",
+    "entrada/IMG_20261018_193005070_HDR.jpg",
+    "entrada/IMG_20261020_194720187.jpg",
+    "entrada/IMG_20261024_220509186.jpg",
+    "entrada/IMG_20261030_095028910.jpg",
+    "entrada/IMG_20261030_095042183.jpg"
+  ],
+  "creado": "2026-10-31T18:50:47.961441+00:00"
+}

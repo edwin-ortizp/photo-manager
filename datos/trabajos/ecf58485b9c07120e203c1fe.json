@@ -1,0 +1,34 @@
+{
+  "id": "ecf58485b9c07120e203c1fe",
+  "operacion": "auditar",
+  "estado": "completado",
+  "total": 1,
+  "procesadas": 1,
+  "completadas": [
+    {
+      "ruta": "entrada/IMG_20261024_220509186.jpg",
+      "tecnica": {
+        "formato": "JPEG",
+        "ancho": 2448,
+        "alto": 3264,
+        "bits": 8,
+        "chroma": null,
+        "cuadros": 1,
+        "errores": [],
+        "avisos": [
+          "sin-avif"
+        ],
+        "desconocidos": [],
+        "conforme": false
+      },
+      "organizacion": [
+        "sin-tipo",
+        "sin-clasificar"
+      ]
+    }
+  ],
+  "fallidas": [],
+  "omitidas": [],
+  "pendientes": [],
+  "creado": "2026-10-31T18:56:27.957815+00:00"
+}

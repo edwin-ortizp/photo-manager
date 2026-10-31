@@ -1,0 +1,42 @@
+[
+ {
+  "id": 3685,
+  "imagen": "C:/laragon/www/photo-manager/datos/para-ia/3685.jpg",
+  "fecha": "2026-09-15T07:23:09",
+  "camara": "SM-F936B",
+  "sugerencias": [],
+  "personas_conocidas": []
+ },
+ {
+  "id": 3684,
+  "imagen": "C:/laragon/www/photo-manager/datos/para-ia/3684.jpg",
+  "fecha": "2026-09-13T15:49:04",
+  "camara": "SM-F936B",
+  "sugerencias": [],
+  "personas_conocidas": []
+ },
+ {
+  "id": 3683,
+  "imagen": "C:/laragon/www/photo-manager/datos/para-ia/3683.jpg",
+  "fecha": "2026-09-13T14:24:51",
+  "camara": "SM-F936B",
+  "sugerencias": [],
+  "personas_conocidas": []
+ },
+ {
+  "id": 3682,
+  "imagen": "C:/laragon/www/photo-manager/datos/para-ia/3682.jpg",
+  "fecha": "2026-09-12T06:07:51",
+  "camara": "SM-F936B",
+  "sugerencias": [],
+  "personas_conocidas": []
+ },
+ {
+  "id": 3681,
+  "imagen": "C:/laragon/www/photo-manager/datos/para-ia/3681.jpg",
+  "fecha": "2026-09-10T18:52:09",
+  "camara": "SM-F936B",
+  "sugerencias": [],
+  "personas_conocidas": []
+ }
+]

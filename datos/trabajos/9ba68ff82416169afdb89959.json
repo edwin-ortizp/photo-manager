@@ -1,0 +1,473 @@
+{
+  "id": "9ba68ff82416169afdb89959",
+  "operacion": "convertir",
+  "estado": "completado",
+  "total": 52,
+  "procesadas": 52,
+  "completadas": [
+    {
+      "id": 4097,
+      "ruta": "entrada/IMG_20260919_202151429_HDR.jpg",
+      "destino": "entrada/IMG_20260919_202151429_HDR.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260919_202151429_HDR.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4098,
+      "ruta": "entrada/IMG_20260920_144107036_HDR.jpg",
+      "destino": "entrada/IMG_20260920_144107036_HDR.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260920_144107036_HDR.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4099,
+      "ruta": "entrada/IMG_20260920_161014042_HDR.jpg",
+      "destino": "entrada/IMG_20260920_161014042_HDR.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260920_161014042_HDR.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4100,
+      "ruta": "entrada/IMG_20260920_165659168_HDR.jpg",
+      "destino": "entrada/IMG_20260920_165659168_HDR.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260920_165659168_HDR.jpg",
+      "advertencias": []
+    },
+    {
+      "id": 4101,
+      "ruta": "entrada/IMG_20260920_165738713_HDR.jpg",
+      "destino": "entrada/IMG_20260920_165738713_HDR.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260920_165738713_HDR.jpg",
+      "advertencias": []
+    },
+    {
+      "id": 4102,
+      "ruta": "entrada/IMG_20260920_165755849_HDR.jpg",
+      "destino": "entrada/IMG_20260920_165755849_HDR.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260920_165755849_HDR.jpg",
+      "advertencias": []
+    },
+    {
+      "id": 4103,
+      "ruta": "entrada/IMG_20260922_082340255.jpg",
+      "destino": "entrada/IMG_20260922_082340255.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260922_082340255.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4104,
+      "ruta": "entrada/IMG_20260923_100215983.jpg",
+      "destino": "entrada/IMG_20260923_100215983.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260923_100215983.jpg",
+      "advertencias": []
+    },
+    {
+      "id": 4105,
+      "ruta": "entrada/IMG_20260925_221143933.jpg",
+      "destino": "entrada/IMG_20260925_221143933.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260925_221143933.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4106,
+      "ruta": "entrada/IMG_20260926_103856104_HDR.jpg",
+      "destino": "entrada/IMG_20260926_103856104_HDR.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260926_103856104_HDR.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4107,
+      "ruta": "entrada/IMG_20260926_103901642_HDR.jpg",
+      "destino": "entrada/IMG_20260926_103901642_HDR.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260926_103901642_HDR.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4108,
+      "ruta": "entrada/IMG_20260926_103917449.jpg",
+      "destino": "entrada/IMG_20260926_103917449.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260926_103917449.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4109,
+      "ruta": "entrada/IMG_20260926_104121459_HDR.jpg",
+      "destino": "entrada/IMG_20260926_104121459_HDR.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260926_104121459_HDR.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4110,
+      "ruta": "entrada/IMG_20260926_104125393_HDR.jpg",
+      "destino": "entrada/IMG_20260926_104125393_HDR.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260926_104125393_HDR.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4111,
+      "ruta": "entrada/IMG_20260926_104132156_HDR.jpg",
+      "destino": "entrada/IMG_20260926_104132156_HDR.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260926_104132156_HDR.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4112,
+      "ruta": "entrada/IMG_20260926_104133398_HDR.jpg",
+      "destino": "entrada/IMG_20260926_104133398_HDR.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260926_104133398_HDR.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4113,
+      "ruta": "entrada/IMG_20260926_104134412_HDR.jpg",
+      "destino": "entrada/IMG_20260926_104134412_HDR.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260926_104134412_HDR.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4114,
+      "ruta": "entrada/IMG_20260926_104143518_HDR.jpg",
+      "destino": "entrada/IMG_20260926_104143518_HDR.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260926_104143518_HDR.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4115,
+      "ruta": "entrada/IMG_20260926_104145951_HDR.jpg",
+      "destino": "entrada/IMG_20260926_104145951_HDR.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260926_104145951_HDR.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4116,
+      "ruta": "entrada/IMG_20260926_104149418_HDR.jpg",
+      "destino": "entrada/IMG_20260926_104149418_HDR.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260926_104149418_HDR.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4117,
+      "ruta": "entrada/IMG_20260926_104151559_HDR.jpg",
+      "destino": "entrada/IMG_20260926_104151559_HDR.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260926_104151559_HDR.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4118,
+      "ruta": "entrada/IMG_20260926_104231697.jpg",
+      "destino": "entrada/IMG_20260926_104231697.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260926_104231697.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4119,
+      "ruta": "entrada/IMG_20260926_104232667.jpg",
+      "destino": "entrada/IMG_20260926_104232667.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260926_104232667.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4120,
+      "ruta": "entrada/IMG_20260926_104233316.jpg",
+      "destino": "entrada/IMG_20260926_104233316.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260926_104233316.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4121,
+      "ruta": "entrada/IMG_20260926_104235555_HDR.jpg",
+      "destino": "entrada/IMG_20260926_104235555_HDR.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260926_104235555_HDR.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4122,
+      "ruta": "entrada/IMG_20260926_104236270.jpg",
+      "destino": "entrada/IMG_20260926_104236270.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260926_104236270.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4123,
+      "ruta": "entrada/IMG_20260926_104236837.jpg",
+      "destino": "entrada/IMG_20260926_104236837.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260926_104236837.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4124,
+      "ruta": "entrada/IMG_20260926_104237067.jpg",
+      "destino": "entrada/IMG_20260926_104237067.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260926_104237067.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4125,
+      "ruta": "entrada/IMG_20260926_104237317.jpg",
+      "destino": "entrada/IMG_20260926_104237317.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260926_104237317.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4126,
+      "ruta": "entrada/IMG_20260926_104241258.jpg",
+      "destino": "entrada/IMG_20260926_104241258.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260926_104241258.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4127,
+      "ruta": "entrada/IMG_20260926_104241649.jpg",
+      "destino": "entrada/IMG_20260926_104241649.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260926_104241649.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4128,
+      "ruta": "entrada/IMG_20260926_104242075.jpg",
+      "destino": "entrada/IMG_20260926_104242075.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260926_104242075.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4129,
+      "ruta": "entrada/IMG_20260926_104242605.jpg",
+      "destino": "entrada/IMG_20260926_104242605.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260926_104242605.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4130,
+      "ruta": "entrada/IMG_20260926_104246260_HDR.jpg",
+      "destino": "entrada/IMG_20260926_104246260_HDR.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260926_104246260_HDR.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4131,
+      "ruta": "entrada/IMG_20260926_104248025.jpg",
+      "destino": "entrada/IMG_20260926_104248025.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260926_104248025.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4132,
+      "ruta": "entrada/IMG_20260926_104342794_HDR.jpg",
+      "destino": "entrada/IMG_20260926_104342794_HDR.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260926_104342794_HDR.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4133,
+      "ruta": "entrada/IMG_20260926_104407672_HDR.jpg",
+      "destino": "entrada/IMG_20260926_104407672_HDR.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260926_104407672_HDR.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4134,
+      "ruta": "entrada/IMG_20260926_104424055_HDR.jpg",
+      "destino": "entrada/IMG_20260926_104424055_HDR.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260926_104424055_HDR.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4135,
+      "ruta": "entrada/IMG_20260926_104459506_HDR.jpg",
+      "destino": "entrada/IMG_20260926_104459506_HDR.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260926_104459506_HDR.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4136,
+      "ruta": "entrada/IMG_20260926_173408432_HDR.jpg",
+      "destino": "entrada/IMG_20260926_173408432_HDR.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260926_173408432_HDR.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4137,
+      "ruta": "entrada/IMG_20260926_173418472_HDR.jpg",
+      "destino": "entrada/IMG_20260926_173418472_HDR.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260926_173418472_HDR.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4138,
+      "ruta": "entrada/IMG_20260926_223106885.jpg",
+      "destino": "entrada/IMG_20260926_223106885.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260926_223106885.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4139,
+      "ruta": "entrada/IMG_20260927_180202383.jpg",
+      "destino": "entrada/IMG_20260927_180202383.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20260927_180202383.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4140,
+      "ruta": "entrada/IMG_20261011_191848765_HDR.jpg",
+      "destino": "entrada/IMG_20261011_191848765_HDR.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20261011_191848765_HDR.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4141,
+      "ruta": "entrada/IMG_20261018_174656859_HDR.jpg",
+      "destino": "entrada/IMG_20261018_174656859_HDR.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20261018_174656859_HDR.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4142,
+      "ruta": "entrada/IMG_20261018_174700137_HDR.jpg",
+      "destino": "entrada/IMG_20261018_174700137_HDR.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20261018_174700137_HDR.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4143,
+      "ruta": "entrada/IMG_20261018_174705050_HDR.jpg",
+      "destino": "entrada/IMG_20261018_174705050_HDR.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20261018_174705050_HDR.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4144,
+      "ruta": "entrada/IMG_20261018_193005070_HDR.jpg",
+      "destino": "entrada/IMG_20261018_193005070_HDR.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20261018_193005070_HDR.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4145,
+      "ruta": "entrada/IMG_20261020_194720187.jpg",
+      "destino": "entrada/IMG_20261020_194720187.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20261020_194720187.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4146,
+      "ruta": "entrada/IMG_20261024_220509186.jpg",
+      "destino": "entrada/IMG_20261024_220509186.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20261024_220509186.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4147,
+      "ruta": "entrada/IMG_20261030_095028910.jpg",
+      "destino": "entrada/IMG_20261030_095028910.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20261030_095028910.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    },
+    {
+      "id": 4148,
+      "ruta": "entrada/IMG_20261030_095042183.jpg",
+      "destino": "entrada/IMG_20261030_095042183.avif",
+      "respaldo": "E:\\fotos-y-videos\\entrada\\IMG_20261030_095042183.jpg",
+      "advertencias": [
+        "MakerNotes no reconocidas por ExifTool; se conservaron y verificaron byte por byte."
+      ]
+    }
+  ],
+  "fallidas": [],
+  "omitidas": [],
+  "pendientes": [],
+  "creado": "2026-10-31T19:19:49.679231+00:00"
+}
